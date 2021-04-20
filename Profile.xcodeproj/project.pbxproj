@@ -13,6 +13,9 @@
 		D74E4AAB262F6257001111DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74E4AAA262F6257001111DD /* Preview Assets.xcassets */; };
 		D74E4AB6262F6257001111DD /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E4AB5262F6257001111DD /* ProfileTests.swift */; };
 		D74E4AC1262F6257001111DD /* ProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E4AC0262F6257001111DD /* ProfileUITests.swift */; };
+		D74E4AD3262F62FE001111DD /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E4AD2262F62FE001111DD /* ProfileScreen.swift */; };
+		D74E4ADC262F64BE001111DD /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E4ADB262F64BE001111DD /* ProfileModel.swift */; };
+		D74E4AE8262F6CEA001111DD /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E4AE7262F6CEA001111DD /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		D74E4ABC262F6257001111DD /* ProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74E4AC0262F6257001111DD /* ProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUITests.swift; sourceTree = "<group>"; };
 		D74E4AC2262F6257001111DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74E4AD2262F62FE001111DD /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		D74E4ADB262F64BE001111DD /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		D74E4AE7262F6CEA001111DD /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 		D74E4A97262F6249001111DD = {
 			isa = PBXGroup;
 			children = (
+				D74E4AE6262F6CC1001111DD /* Services */,
+				D74E4ADA262F6496001111DD /* Model */,
+				D74E4AD1262F62E9001111DD /* Screens */,
 				D74E4AA2262F6249001111DD /* Profile */,
 				D74E4AB4262F6257001111DD /* ProfileTests */,
 				D74E4ABF262F6257001111DD /* ProfileUITests */,
@@ -128,6 +137,30 @@
 				D74E4AC2262F6257001111DD /* Info.plist */,
 			);
 			path = ProfileUITests;
+			sourceTree = "<group>";
+		};
+		D74E4AD1262F62E9001111DD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D74E4AD2262F62FE001111DD /* ProfileScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D74E4ADA262F6496001111DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D74E4ADB262F64BE001111DD /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D74E4AE6262F6CC1001111DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D74E4AE7262F6CEA001111DD /* UserService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D74E4AA6262F6249001111DD /* ContentView.swift in Sources */,
+				D74E4AE8262F6CEA001111DD /* UserService.swift in Sources */,
+				D74E4ADC262F64BE001111DD /* ProfileModel.swift in Sources */,
+				D74E4AD3262F62FE001111DD /* ProfileScreen.swift in Sources */,
 				D74E4AA4262F6249001111DD /* ProfileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
